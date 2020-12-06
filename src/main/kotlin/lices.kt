@@ -1,6 +1,8 @@
 fun main() {
-    val lices =  11
+    val lices =  101
     val people  = lices % 10
-    val person = if (people != 1 || lices == 11) "людям" else "человеку"
+    val eleven = lices % 100
+    val person = if (people != 1 || eleven == 11) "людям" else "человеку"
     println("Понравилось $lices $person")
+    println("Пон  $eleven  ")
 }
