@@ -4,5 +4,4 @@ fun main() {
     val eleven = lices % 100
     val person = if (people != 1 || eleven == 11) "людям" else "человеку"
     println("Понравилось $lices $person")
-    println("Пон  $eleven  ")
 }
